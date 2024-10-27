@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.about
+{
+  width: 100%;
+  background-color: #29004e;
+  color: white;
+}
+.about-text
+{
+  margin: 0;
+}
+.about h2{
+  color: white;
+}
+.about .container
+{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 50px;
+}
+.about .row
+{
+  width: 100%;
+  height: 300px;
+  display: flex;
+ flex-direction: row;
+ gap: 20px;
+ background-color: #33035c;
+}
+.about .row img
+{
+  align-self: flex-start;
+}
