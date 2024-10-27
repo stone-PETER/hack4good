@@ -1,5 +1,7 @@
 body,
 html {
+  --color1: #29004e;
+  --color2: #5ca9fb;
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
@@ -104,7 +106,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +127,11 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(
+    to right,
+    var(--color1) 0%,
+    var(--color2) 100%
+  ) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -152,7 +158,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -167,7 +173,11 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-image: linear-gradient(
+    to right,
+    var(--color1) 0%,
+    var(--color2) 100%
+  );
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -208,7 +218,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/wavypurple-hero-bg.jpeg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -257,8 +267,55 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#features .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+#features .row-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#features .icon-box {
+  margin: 0 0 30px;
+  padding: 20px 20px 30px;
+  background: #fff;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease-out;
+  border-radius: 10px;
+  text-align: left;
+}
+#features .icon-box:hover {
+  background: #f6f6f6;
+}
+#features .icon-box i {
+  font-size: 48px;
+  float: left;
+  background-color: linear-gradient(
+    68deg,
+    rgb(13 255 0) 0%,
+    rgb(0 53 255) 100%
+  );
+}
+
+#features .icon-box p {
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+
+#features .image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+#features .small-screen {
+  display: none;
 }
 /* About Section */
 #about {
@@ -276,7 +333,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -310,7 +367,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -334,7 +391,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #29004e 0%, #845cfb 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -460,7 +517,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
