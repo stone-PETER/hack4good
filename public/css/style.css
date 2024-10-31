@@ -226,7 +226,7 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.35);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -316,6 +316,43 @@ header .intro-text {
 }
 #features .small-screen {
   display: none;
+}
+/*Prize section*/
+#prize-pool {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.prizes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.prize {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 30%;
+  text-align: center;
+}
+
+.prize h3 {
+  font-size: 1.5em;
 }
 /* About Section */
 #about {
