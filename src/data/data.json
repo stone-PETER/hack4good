@@ -157,11 +157,13 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
+    "address": "National Institute of Technology Calicut, NIT Campus P.O 673 601, Kozhikode, India",
+    "phone": "+91 80758 84601",
+    "email": "@company.com",
+    "linkedin": "https://www.linkedin.com/company/ieeespskc/",
+    "instagram": "https://www.instagram.com/ieeespskerala/",
+    "facebook": "https://www.facebook.com/ieeespskc/",
+    "twitter": "https://twitter.com/ieeespskerala",
     "youtube": "youtube.com"
   },
   "Features": [
