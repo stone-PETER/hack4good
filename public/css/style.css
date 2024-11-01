@@ -94,7 +94,7 @@ hr {
   justify-content: center;
   flex-grow: 1;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .secondary {
     display: none;
   }
@@ -307,11 +307,11 @@ header .intro-text {
   font-weight: 700;
   margin: 5px 0 10px 60px;
 }
-#features .row-col {
+/* #features .row-col {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 #features .icon-box {
   margin: 0 0 30px;
   padding: 20px 20px 30px;
