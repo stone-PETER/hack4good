@@ -18,6 +18,9 @@ export const Services = (props) => {
           </p> */}
         </div>
         <div className="row">
+          <h3>Prizes worth INR 1,00,000</h3>
+        </div>
+        <div className="row">
           {firstElement ? (
             <div key={`${firstElement.name}-0`} className="col-md-12 prizes">
               <div className="prize">

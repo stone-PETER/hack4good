@@ -524,6 +524,44 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
+/* Problem Statements Section */
+.problem-statements {
+  padding: 100px 0;
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+}
+
+.problem-statements h1 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.problem-statements p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.problem-statements button {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.problem-statements button:hover {
+  background: #fff;
+  color: var(--color1);
+}
+
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;

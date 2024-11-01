@@ -26,7 +26,7 @@ export const Header = (props) => {
                   </a>
                 </p>
                 <a
-                  href="#features"
+                  href="https://tinyurl.com/Hack4Good-Registration"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Register Now
