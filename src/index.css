@@ -1,67 +1,55 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.about
-{
+.about {
   width: 100%;
   background-color: #29004e;
   color: white;
 }
-.about-text
-{
+.about-text {
   margin: 0;
 }
-.about h2{
+.about h2 {
   color: white;
 }
-.about .container
-{
- display: flex;
- flex-direction: column;
- align-items: center;
- gap: 50px;
- flex-wrap: wrap;
+.about .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
 }
-.about .row
-{
+.about .row {
   width: 100%;
   height: 50%;
   padding: 30px;
   display: flex;
- flex-direction: row;
- gap: 20px;
- background-color: #33035c;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #33035c;
 }
-.about .row img
-{
+.about .row img {
   align-self: flex-start;
   background: white;
-
 }
-@media(max-width:900px)
-{
-  
-  .about .row
-  {
+@media (max-width: 900px) {
+  .about .row {
     display: flex;
     flex-direction: column;
-    
   }
 }
-@media(max-width:600px)
-{
-  .about .row img
-  {
+@media (max-width: 600px) {
+  .about .row img {
     width: 200px;
-  } 
+  }
 }

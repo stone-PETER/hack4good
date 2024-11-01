@@ -17,9 +17,40 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            HACK4GOOD
-          </a>{" "}
+          <a className="page-scroll" href="#about">
+            <img
+              className="nav-logo"
+              src="img/logo/sps kc png.png"
+              alt="SPSKC"
+            />
+          </a>
+          <a className="page-scroll" href="#about">
+            <img
+              className="nav-logo"
+              src="img/logo/humtn logo png.png"
+              alt="HTB"
+            />
+          </a>
+          <a className="page-scroll secondary" href="#about">
+            <img className="nav-logo" src="img/logo/NITC.png" alt="HTB" />
+          </a>
+          <a className="page-scroll secondary" href="#about">
+            <img
+              className="nav-logo"
+              src="img/logo/icassp 25 png.png"
+              alt="HTB"
+            />
+          </a>
+          <a className="page-scroll secondary" href="#about">
+            <img
+              className="nav-logo"
+              src="img/logo/ieee foundation png.png"
+              alt="HTB"
+            />
+          </a>
+          <a className="page-scroll secondary" href="#about">
+            <img className="nav-logo" src="img/logo/ieee png.png" alt="HTB" />
+          </a>
         </div>
 
         <div

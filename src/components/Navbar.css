@@ -1,0 +1,226 @@
+.navbar {
+  position: sticky;
+  background-color: #29004e;
+  width: 100dvw;
+  top: 0;
+  z-index: 100;
+  /* max-height: 60px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 120px;
+}
+
+.logo {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.hack-logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.nav-components {
+  width: 60%;
+}
+
+.navbar ul {
+  flex: 1;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Inter;
+  line-height: 24.2px;
+  transition-duration: 300ms;
+}
+
+.navbar ul li:hover {
+  color: 33035c;
+}
+
+.register-btn {
+  width: 20%;
+  height: 80px;
+  color: #5ca9fb;
+  padding-top: 20px;
+}
+
+.navbar .btn {
+  border: 3px;
+  width: 160px;
+  height: 40px;
+  border-color: #878787;
+  font-weight: 500;
+  border-style: solid;
+  font-size: 20px;
+  align-items: center;
+  font-family: Inter;
+  line-height: 24.2px;
+  transition-duration: 300ms;
+}
+
+.navbar .btn:hover {
+  background: var(--liquid-lava);
+  color: var(--snow);
+}
+
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Media queries for responsive design */
+
+@media (max-width: 1121px) and (min-width: 769px) {
+  .navbar {
+    flex-direction: row;
+    height: auto;
+    padding-block: 0.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .logo {
+    width: 15%;
+    text-align: left;
+  }
+
+
+  .nav-components {
+    width: 65%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .register-btn {
+    width: 20%;
+    text-align: right;
+    height: auto;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    height: auto;
+    padding-block: 0.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+
+  .nav-components {
+    width: 100%;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-components.open {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .navbar ul {
+    padding: 0;
+  }
+
+  .navbar ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .register-btn {
+    width: 100%;
+    text-align: center;
+    height: auto;
+    padding-top: 10px;
+    padding-inline: 2rem;
+    padding-bottom: 10px;
+  }
+
+  .navbar .btn {
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: row;
+    height: auto;
+    padding-block: 0.5rem;
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .nav-components {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar ul li {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+
+  .register-btn {
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: none;
+  }
+
+  .register-btn.open {
+    display: block;
+  }
+
+  .navbar .btn {
+    width: 80%;
+  }
+}
+
+.align {
+  flex-direction: column;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}

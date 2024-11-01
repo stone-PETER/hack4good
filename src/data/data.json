@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Hack4Good",
-    "paragraph": "Redefine Possibilities:Where Innovation Fuels Social Change!"
+    "paragraph": "powered by IEEE Humanitarian Technologies Board"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -69,32 +69,37 @@
     {
       "icon": "fa fa-trophy",
       "name": "Winner",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "1000"
     },
     {
       "icon": "fa fa-trophy",
       "name": "First Runner Up",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "1000"
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "PRIZE POOL",
+      "text": "1000"
     },
     {
       "icon": "fa fa-cloud-download",
       "name": "Second Runner Up",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "1000"
     },
     {
       "icon": "fa fa-language",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "1000"
     },
     {
       "icon": "fa fa-plane",
       "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "1000"
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "1000"
     }
   ],
   "Testimonials": [
