@@ -49,7 +49,7 @@ export const Navigation = (props) => {
             />
           </a>
           <a className="page-scroll secondary" href="#about">
-            <img className="nav-logo" src="img/logo/ieee png.png" alt="HTB" />
+            <img className="nav-logo" src="img/logo/ieee png.png" alt="HTB" id="ieee" />
           </a>
         </div>
 

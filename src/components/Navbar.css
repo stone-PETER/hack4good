@@ -82,6 +82,9 @@
   font-size: 28px;
   cursor: pointer;
 }
+#ieee{
+  width: 23px;
+}
 
 /* Media queries for responsive design */
 

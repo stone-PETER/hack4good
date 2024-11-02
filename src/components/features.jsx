@@ -22,7 +22,7 @@ export const Features = (props) => {
           <h2>RoadMap</h2>
           <p>
             This Roadmap of our event would provide you insights on the
-            chronolgoy of the event in the right direction
+            chronolgoy of the event
           </p>
         </div>
         <div class="row">
@@ -33,49 +33,76 @@ export const Features = (props) => {
               data-aos-delay="100"
             >
               <i class="bx bx-receipt"></i>
-              <h4>Online Registration starts</h4>
+              <h4>Phase 1 : Ideation Hack</h4>
               <p>
-                Once the registration starts and teams register for the
-                hackathon they will be provided with Problem statements that is
-                to be solved based on UN Goals mentioned above.
+                Registration starts : 2/11/2024
+                <br />
+                -Ideation Hack,the first phase of Hack4Good is to register with your idea for devloping solution based on the given 20 problem statements that come under United Nations Sustainability development Goals.Your application must consist of :
+                <br />
+                1. Title and Team Details
+                <br />
+                2. Abstract
+                <br />
+                3. Problem Statement
+                <br />
+                4. Proposed Solution
+                <br />
+                5. Technology Stack
+                <br />
+                6. Implementation Plan
+                <br />
+                7.Expected Outcomes
+                <br />
+                8.Pros and Cons
+                <br />
+                9.SDG Alignment
+                <br />
+                10.Pitch Summary
+                <br />
+                -To be submitted in the form of PDF.
               </p>
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
               <i class="bx bx-cube-alt"></i>
-              <h4>Phase 1 Elimination round</h4>
+              <h4>Phase 2 : Hack Tank</h4>
               <p>
-                Abstract submission and filtering of teams registered based on
-                UN goals and Problem statement
+                -Teams selected from phase 1 will be going to Hack Tank round.
+                <br />
+                -Panel of experts will cross the idea of teams while the teams try to convince why the idea suits
+                 sustainability as well as how it solves the problem.
+                 <br />
+                -It would follow a corporate product presentation of why and how their product is to be designed.
+                <br />
+                -It would follow more of a debate format where the team would have to convince the panel about their
+                 ideas.
+                 <br />
+                -Presentation, Flowcharts could be used during this phase review.
+                <br />
               </p>
               <p>Selected teams will be assigned with Mentors</p>
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
               <i class="bx bx-user"></i>
-              <h4>Phase 2 Elimination round</h4>
-              <p>
-                Midway checkpoint of progress to be analysed by Mentors and
-                Judges,they will look deep into the progress of the teams and
-                how they are working to put up a proper good solution,based on
-                all these judging criteria Teams are selcted for the final round
-              </p>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-shield"></i>
-              <h4>Hackathon Final Round Offline event </h4>
+              <h4>Phase 3 : Final Hack : 24 Hours</h4>
               <p>
                 Final selected teams will be invited to compete in an offline
                 venue
               </p>
               <p>
-                Talk sessions are also set up in parallel with Hackathon final
-                round for the non participants
+                Mentoring sessions for the Final selected teams will be provided.
+                <br />
+                -Each team would be guided by a mentor for the final hack.
               </p>
               <p>
-                Winner announcement of Hack4Good would be done.Judges will
-                analyse and decide which team did their best to provide a
-                solution that resembles with UN Goals
+                Final Hack will have 24 Hours of Offline Hackathon at NIT Calicut
+                <br />
               </p>
             </div>
+            {/* <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-shield"></i>
+              <h4>Hackathon Final Round Offline event </h4>
+             
+            </div> */}
           </div>
           <div
             class={`image col-lg-6 order-1 order-lg-2 ${

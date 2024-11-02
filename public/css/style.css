@@ -452,11 +452,10 @@ header .intro-text {
   /* width: 100%; */
 }
 #services .prize {
-  /* background: linear-gradient(to right, #29004e 0%, #845cfb 100%); */
-  background: rgba(97, 106, 235, 0.293);
-  /* border: 1px solid #ddd; */
+  background: linear-gradient(to right, #29004e 0%, #845cfb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-  max-width: 300px;
+  max-width: 650px;
+  height: 399px;
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
@@ -467,6 +466,13 @@ header .intro-text {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
+}
+
+#lakh{
+  font-size: 124px;
+}
+#pool{
+  font-size: 60px;
 }
 #services p {
   color: rgba(255, 255, 255, 0.75);
@@ -768,4 +774,12 @@ label {
   #about img {
     margin: 50px 0;
   }
+  #lakh {
+    font-size: 48px;
+    position: relative;
+    top: -15px;
+}
+#pool {
+  font-size: 52px;
+}
 }

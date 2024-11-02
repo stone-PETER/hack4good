@@ -25,7 +25,9 @@ export const Services = (props) => {
             <div key={`${firstElement.name}-0`} className="col-md-12 prizes">
               <div className="prize">
                 <i className="fa fa-trophy"></i>
-                <h3>{firstElement.name}</h3>
+                <h3 id="lakh">₹ 1 Lakh </h3>
+                <h4 id="pool">Prize Pool</h4>
+                {/* <h3>{firstElement.name}</h3> */}
                 {/* <p>{firstElement.text}</p> */}
               </div>
               {/* <div className="service-desc">
@@ -36,22 +38,23 @@ export const Services = (props) => {
             "loading"
           )}
         </div>
-        <div className="row">
+        {/* <div className="row">
           {secondAndThirdElements.length > 0
             ? secondAndThirdElements.map((d, i) => (
                 <div key={`${d.name}-${i + 1}`} className="col-md-6 prizes">
                   <div className="prize">
                     <i className="fa fa-trophy"></i>
                     <h3>{d.name}</h3>
-                    {/* <p>{d.text}</p> */}
+                    <p>{d.text}</p>
                   </div>
-                  {/* <div className="service-desc">
+                  <div className="service-desc">
                     
-                  </div> */}
+                  </div>
                 </div>
               ))
             : "loading"}
-        </div>
+        </div> */}
+
         {/* <div className="row">
           {otherElements.length > 0
             ? otherElements.map((d, i) => (

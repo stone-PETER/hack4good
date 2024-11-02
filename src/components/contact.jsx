@@ -109,7 +109,7 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-marker"></i> Final Hack Venue
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -118,18 +118,17 @@ export const Contact = (props) => {
               <p>
                 <span>
                   <i className="fa fa-phone"></i> Phone
-                </span>{" "}
+                </span>{" "}Gregory Kurien :
                 {props.data ? props.data.phone : "loading"}
                 <br />
-                +91 94005 90135
+                Nandana Promoth : +91 94005 90135
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                </span>ieeespskerala@gmail.com
               </p>
             </div>
           </div>
@@ -167,7 +166,7 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy;Designed and Developed by Alan Antony IEEE SPS KC WebMaster
-            2024
+            2024 and H4G Web Team
           </p>
         </div>
       </div>
