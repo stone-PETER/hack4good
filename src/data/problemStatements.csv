@@ -1,0 +1,60 @@
+PROBLEM STATEMENTS
+"1. Affordable Remote Health Monitoring for Rural Areas
+Develop an affordable remote health monitoring system to track vital signs for individuals in rural areas, enabling healthcare professionals to access patient data remotely and provide timely interventions.
++
+7. Mobile Health Clinic for Remote Check-Ups
+   - A compact, solar-powered health kiosk designed for remote areas which enables basic health check-ups and virtual doctor consultations for underserved communities.
++
+2. Wearable Health Sensor for Early Detection of Chronic Conditions
+Design a wearable device that can detect early signs of chronic diseases like diabetes or hypertension, alerting users and health providers to potential issues before symptoms worsen."
+"5. Nutritional Coaching App for Maternal and Child Health
+Build an app that offers customized nutritional guidance and recipes for pregnant women and young children, addressing malnutrition and improving maternal and child health outcomes."
+"3. Mobile Water Quality Testing for Disease Prevention
+Develop a portable water quality testing device that connects to a mobile app, helping communities monitor their water sources to reduce the risk of waterborne diseases.
+"
+"4. Predictive Disease Outbreak Mapping and Alert System
+Create a data-driven application that predicts disease outbreaks based on climate, population movement, and local health data, alerting communities and health authorities to potential risks."
+"11 Monitoring and Analyzing Community Water Usage: Develop a solution to monitor and analyze water consumption patterns across communities, helping local governments and organizations promote efficient water usage."
+"12 Precision farming for smart irrigation:Design an innovative solution that leverages precision farming techniques to optimize water usage in agricultural fields through smart irrigation systems. The goal is to minimize water wastage, reduce costs, and increase crop yield, especially in areas where water resources are scarce.
++
+Efficient Watering for Agriculture and Home Gardens: Develop a system to optimize water use in agriculture and gardening, ensuring that plants receive adequate but not excessive water, even in water-scarce areas."
+"13 Grey water recycling system :Design an innovative system that efficiently collects, filters, and recycles grey  
+ water from household sources (e.g., sinks, showers, washing machines) for reuse in irrigation,   
+toilet flushing, or other non-potable applications. 
+"
+"Early Detection of Waterborne Disease Risks: Contaminated water can lead to outbreaks of waterborne diseases, especially in vulnerable areas. How can potential risks of waterborne diseases be identified early to prevent outbreaks
++
+Real-time Water Quality Monitoring: Many communities struggle to consistently monitor and ensure water quality, leading to potential health risks. How can water quality be monitored in real-time to detect contaminants and ensure safe consumption"
+Renewable Energy Access: How to provide affordable renewable energy to rural communities?
+Energy Storage: How to develop cost-effective energy storage solutions for renewable energy?
+Lowering Energy Costs: How to reduce clean energy costs for low-income households?
+"14 Clean Cooking: How to replace traditional cooking methods with affordable, clean solutions?"
+"15 Noise Pollution Mapping and Management System: Develop an application that maps noise levels in different parts of a city in real-time, identifies high-noise areas, and suggests noise reduction strategies for urban planners and residents."
+"16 Real-Time Accessibility Map for Disabled Urban Residents: Design a real-time map that highlights accessible pathways, public transit routes, and buildings for disabled residents, with features like alerts for obstacles or temporary inaccessibility."
+"17 Urban Flood Prediction and Mitigation System: Develop a predictive system that uses data like rainfall, river levels, and drainage capacity to forecast potential urban flooding and recommend proactive measures to minimize impact on communities."
+"18 Dynamic Safety Zone Activation System: Create a system that detects crowded urban areas and automatically establishes safety zones, enhancing security during peak hours or events."
+"19 Unified Data Sharing Platform for Multi-Stakeholder Collaboration
+   - Develop a secure, cross-platform system that enables seamless data sharing among NGOs, government bodies, and private organizations, facilitating collaborative efforts for sustainable development projects
++
+25 Real-Time Resource Sharing Hub for Crisis Response
+    - Design a real-time resource-sharing platform that connects various stakeholders in times of crisis, enabling swift coordination of essential resources and manpower among NGOs, governments, and private entities to address urgent needs
++
+""26 Data Sharing Dashboard:
+Develop an open-source dashboard that aggregates data from organizations working on SDGs, visualizing partnerships, resources, and outcomes to help users identify collaboration gaps and opportunities."""
+"20 Community-Funded Sustainability Investment Hub
+   - Create a digital platform where local communities, investors, and stakeholders can pool resources and co-invest in sustainability initiatives, providing transparent tracking of project impacts and returns.
++
+23 SDG Fund Allocation and Impact Tracker
+   - Create a system that tracks SDG-related financial commitments, mapping funds to their impact areas and offering real-time visibility into how resources are being utilized and the outcomes achieved.
++
+27 Partnership Impact Tracker:
+Design a hardware device that collects real-time data on community projects funded by partnerships, measuring parameters like environmental impact and social change, and transmitting the data for analysis and reporting."
+"21 Global Skills Exchange Network for SDG Experts
+   - Design a global skill-sharing platform that connects professionals and experts in sustainable development across countries, enabling them to collaborate on SDG-related projects, share resources, and provide guidance in real time.
++
+24 Global Volunteer Matching Network for SDG Projects
+   - Develop a platform that matches skilled volunteers from around the world with SDG projects in need of specific expertise, creating a global network of on-demand volunteers for short- and long-term engagements"
+"""Educational Kiosk for Local Communities:
+Create an interactive kiosk featuring touch screens and QR codes to provide information about the SDGs and local organizations, along with a community bulletin board to promote local partnerships."""
+"22.Supply Chain Transparency Network for Sustainable Trade 
+   - Build a blockchain-enabled system that ensures transparency in international supply chains, allowing stakeholders to verify the sustainability credentials of products and track their journey from source to market."

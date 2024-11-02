@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
@@ -7,6 +8,7 @@ import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
+import ProblemStatements from "./components/problemStatements";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -26,16 +28,32 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
-      <Features data={landingPageData.Features} />
-      <Services data={landingPageData.Services} />
-      {/* <PrizePool data={landingPageData.PrizePool} /> */}
-      {/* <Gallery data={landingPageData.Gallery} /> */}
-      {/* <Testimonials data={landingPageData.Testimonials} /> */}
-      {/* <Team data={landingPageData.Team} /> */}
-      <Contact data={landingPageData.Contact} />
+      <Router>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Navigation />
+                <Header data={landingPageData.Header} />
+                <About data={landingPageData.About} />
+                <Features data={landingPageData.Features} />
+                <ProblemStatements />
+                <Services data={landingPageData.Services} />
+                {/* <PrizePool data={landingPageData.PrizePool} /> */}
+                {/* <Gallery data={landingPageData.Gallery} /> */}
+                {/* <Testimonials data={landingPageData.Testimonials} /> */}
+                {/* <Team data={landingPageData.Team} /> */}
+                <Contact data={landingPageData.Contact} />
+              </>
+            }
+          />
+          <Route
+            path="/problem-statements"
+            element={<Testimonials data={landingPageData.Problems} />}
+          />
+        </Routes>
+      </Router>
     </div>
   );
 };

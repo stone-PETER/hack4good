@@ -1,0 +1,244 @@
+{
+  "Header": {
+    "title": "Hack4Good",
+    "paragraph": "powered by IEEE Humanitarian Technologies Board"
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-trophy",
+      "name": "Winner",
+      "text": "1000"
+    },
+    {
+      "icon": "fa fa-trophy",
+      "name": "First Runner Up",
+      "text": "1000"
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Second Runner Up",
+      "text": "1000"
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "1000"
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "1000"
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "1000"
+    }
+  ],
+  "Testimonials": [
+    {
+      "text": "PROBLEM STATEMENTS",
+      "name": "PROBLEM STATEMENTS"
+    },
+    {
+      "text": "1. Affordable Remote Health Monitoring for Rural Areas\nDevelop an affordable remote health monitoring system to track vital signs for individuals in rural areas, enabling healthcare professionals to access patient data remotely and provide timely interventions.\n+\n7. Mobile Health Clinic for Remote Check-Ups\n   - A compact, solar-powered health kiosk designed for remote areas which enables basic health check-ups and virtual doctor consultations for underserved communities.\n+\n2. Wearable Health Sensor for Early Detection of Chronic Conditions\nDesign a wearable device that can detect early signs of chronic diseases like diabetes or hypertension, alerting users and health providers to potential issues before symptoms worsen.",
+      "name": "1. Affordable Remote Health Monitoring for Rural Areas"
+    },
+    {
+      "text": "5. Nutritional Coaching App for Maternal and Child Health\nBuild an app that offers customized nutritional guidance and recipes for pregnant women and young children, addressing malnutrition and improving maternal and child health outcomes.",
+      "name": "5. Nutritional Coaching App for Maternal and Child Health"
+    },
+    {
+      "text": "3. Mobile Water Quality Testing for Disease Prevention\nDevelop a portable water quality testing device that connects to a mobile app, helping communities monitor their water sources to reduce the risk of waterborne diseases.\n",
+      "name": "3. Mobile Water Quality Testing for Disease Prevention"
+    },
+    {
+      "text": "4. Predictive Disease Outbreak Mapping and Alert System\nCreate a data-driven application that predicts disease outbreaks based on climate, population movement, and local health data, alerting communities and health authorities to potential risks.",
+      "name": "4. Predictive Disease Outbreak Mapping and Alert System"
+    },
+    {
+      "text": "11 Monitoring and Analyzing Community Water Usage: Develop a solution to monitor and analyze water consumption patterns across communities, helping local governments and organizations promote efficient water usage.",
+      "name": "11 Monitoring and Analyzing Community Water Usage"
+    },
+    {
+      "text": "12 Precision farming for smart irrigation:Design an innovative solution that leverages precision farming techniques to optimize water usage in agricultural fields through smart irrigation systems. The goal is to minimize water wastage, reduce costs, and increase crop yield, especially in areas where water resources are scarce.\n+\nEfficient Watering for Agriculture and Home Gardens: Develop a system to optimize water use in agriculture and gardening, ensuring that plants receive adequate but not excessive water, even in water-scarce areas.",
+      "name": "12 Precision farming for smart irrigation"
+    },
+    {
+      "text": "13 Grey water recycling system :Design an innovative system that efficiently collects, filters, and recycles grey  \n water from household sources (e.g., sinks, showers, washing machines) for reuse in irrigation,   \ntoilet flushing, or other non-potable applications. \n",
+      "name": "13 Grey water recycling system"
+    },
+    {
+      "text": "Early Detection of Waterborne Disease Risks: Contaminated water can lead to outbreaks of waterborne diseases, especially in vulnerable areas. How can potential risks of waterborne diseases be identified early to prevent outbreaks\n+\nReal-time Water Quality Monitoring: Many communities struggle to consistently monitor and ensure water quality, leading to potential health risks. How can water quality be monitored in real-time to detect contaminants and ensure safe consumption",
+      "name": "Early Detection of Waterborne Disease Risks"
+    },
+    {
+      "text": "Renewable Energy Access: How to provide affordable renewable energy to rural communities?",
+      "name": "Renewable Energy Access"
+    },
+    {
+      "text": "Energy Storage: How to develop cost-effective energy storage solutions for renewable energy?",
+      "name": "Energy Storage"
+    },
+    {
+      "text": "Lowering Energy Costs: How to reduce clean energy costs for low-income households?",
+      "name": "Lowering Energy Costs"
+    },
+    {
+      "text": "14 Clean Cooking: How to replace traditional cooking methods with affordable, clean solutions?",
+      "name": "14 Clean Cooking"
+    },
+    {
+      "text": "15 Noise Pollution Mapping and Management System: Develop an application that maps noise levels in different parts of a city in real-time, identifies high-noise areas, and suggests noise reduction strategies for urban planners and residents.",
+      "name": "15 Noise Pollution Mapping and Management System"
+    },
+    {
+      "text": "16 Real-Time Accessibility Map for Disabled Urban Residents: Design a real-time map that highlights accessible pathways, public transit routes, and buildings for disabled residents, with features like alerts for obstacles or temporary inaccessibility.",
+      "name": "16 Real-Time Accessibility Map for Disabled Urban Residents"
+    },
+    {
+      "text": "17 Urban Flood Prediction and Mitigation System: Develop a predictive system that uses data like rainfall, river levels, and drainage capacity to forecast potential urban flooding and recommend proactive measures to minimize impact on communities.",
+      "name": "17 Urban Flood Prediction and Mitigation System"
+    },
+    {
+      "text": "18 Dynamic Safety Zone Activation System: Create a system that detects crowded urban areas and automatically establishes safety zones, enhancing security during peak hours or events.",
+      "name": "18 Dynamic Safety Zone Activation System"
+    },
+    {
+      "text": "19 Unified Data Sharing Platform for Multi-Stakeholder Collaboration\n   - Develop a secure, cross-platform system that enables seamless data sharing among NGOs, government bodies, and private organizations, facilitating collaborative efforts for sustainable development projects\n+\n25 Real-Time Resource Sharing Hub for Crisis Response\n    - Design a real-time resource-sharing platform that connects various stakeholders in times of crisis, enabling swift coordination of essential resources and manpower among NGOs, governments, and private entities to address urgent needs\n+\n\"26 Data Sharing Dashboard:\nDevelop an open-source dashboard that aggregates data from organizations working on SDGs, visualizing partnerships, resources, and outcomes to help users identify collaboration gaps and opportunities.\"",
+      "name": "19 Unified Data Sharing Platform for Multi-Stakeholder Collaboration"
+    },
+    {
+      "text": "20 Community-Funded Sustainability Investment Hub\n   - Create a digital platform where local communities, investors, and stakeholders can pool resources and co-invest in sustainability initiatives, providing transparent tracking of project impacts and returns.\n+\n23 SDG Fund Allocation and Impact Tracker\n   - Create a system that tracks SDG-related financial commitments, mapping funds to their impact areas and offering real-time visibility into how resources are being utilized and the outcomes achieved.\n+\n27 Partnership Impact Tracker:\nDesign a hardware device that collects real-time data on community projects funded by partnerships, measuring parameters like environmental impact and social change, and transmitting the data for analysis and reporting.",
+      "name": "20 Community-Funded Sustainability Investment Hub"
+    },
+    {
+      "text": "21 Global Skills Exchange Network for SDG Experts\n   - Design a global skill-sharing platform that connects professionals and experts in sustainable development across countries, enabling them to collaborate on SDG-related projects, share resources, and provide guidance in real time.\n+\n24 Global Volunteer Matching Network for SDG Projects\n   - Develop a platform that matches skilled volunteers from around the world with SDG projects in need of specific expertise, creating a global network of on-demand volunteers for short- and long-term engagements",
+      "name": "21 Global Skills Exchange Network for SDG Experts"
+    },
+    {
+      "text": "\"Educational Kiosk for Local Communities:\nCreate an interactive kiosk featuring touch screens and QR codes to provide information about the SDGs and local organizations, along with a community bulletin board to promote local partnerships.\"",
+      "name": "\"Educational Kiosk for Local Communities"
+    },
+    {
+      "text": "22.Supply Chain Transparency Network for Sustainable Trade \n   - Build a blockchain-enabled system that ensures transparency in international supply chains, allowing stakeholders to verify the sustainability credentials of products and track their journey from source to market.",
+      "name": "22.Supply Chain Transparency Network for Sustainable Trade"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "National Institute of Technology Calicut, NIT Campus P.O 673 601, Kozhikode, India",
+    "phone": "+91 80758 84601",
+    "email": "@company.com",
+    "linkedin": "https://www.linkedin.com/company/ieeespskc/",
+    "instagram": "https://www.instagram.com/ieeespskerala/",
+    "facebook": "https://www.facebook.com/ieeespskc/",
+    "twitter": "https://twitter.com/ieeespskerala",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}

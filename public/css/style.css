@@ -603,8 +603,9 @@ header .intro-text {
 }
 .testimonial {
   position: relative;
-  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+  background: linear-gradient(to right, #0f001b 0%, #29004e 100%);
   padding: 20px;
+  border-radius: 10px;
   margin: 10px;
 }
 .testimonial-image {
@@ -627,11 +628,16 @@ header .intro-text {
   font-size: 14px;
   font-style: italic;
 }
+.testimonial-number {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
 .testimonial-meta {
   margin-top: 10px;
   font-size: 15px;
   font-weight: 600;
-  color: #666;
+  color: #ffffff;
 }
 /* Team Section */
 #team {

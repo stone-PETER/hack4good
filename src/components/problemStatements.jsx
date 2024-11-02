@@ -1,29 +1,49 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ProblemStatements = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const handleViewProblemStatements = () => {
-        navigate('/problem-statements');
-    };
+  const handleViewProblemStatements = () => {
+    navigate("/problem-statements");
+  };
 
-    return (
-        <div className="container mx-auto px-4 py-8">
-            <div className="text-center">
-                <h1 className="text-3xl font-bold mb-4">Problem Statements</h1>
-                <p className="text-xl mb-6">
-                    This hackathon features 20 exciting problem statements across various domains.
-                </p>
-                <button
-                    onClick={handleViewProblemStatements}
-                    className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-                >
-                    View Problem Statements
-                </button>
-            </div>
-        </div>
-    );
+  return (
+    <div
+      className="problem-statements"
+      style={{ margin: "0 auto", padding: "2rem 1rem" }}
+    >
+      <div style={{ textAlign: "center" }}>
+        <h1
+          style={{
+            fontWeight: "bold",
+            marginBottom: "1rem",
+          }}
+        >
+          Problem Statements
+        </h1>
+        <p style={{ fontSize: "1.8rem", marginBottom: "2rem", color: "white" }}>
+          This hackathon features 20 exciting problem statements based on
+          Sustainable Development Goals.
+        </p>
+        <button
+          onClick={handleViewProblemStatements}
+          style={{
+            backgroundColor: "#000",
+            color: "white",
+            fontWeight: "bold",
+            padding: "0.5rem 1rem",
+            borderRadius: "0.5rem",
+            cursor: "pointer",
+          }}
+          onMouseOver={(e) => (e.target.style.backgroundColor = "#2563eb")}
+          onMouseOut={(e) => (e.target.style.backgroundColor = "#000")}
+        >
+          View Problem Statements
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default ProblemStatements;
