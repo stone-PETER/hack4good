@@ -34,6 +34,7 @@ mentorship and guidance.
             <div className="about-text">
               <h2>About IEEE SPS Kerala Chapter</h2>
               <p>
+              The IEEE Signal Processing Society (SPS) Kerala Chapter, part of the IEEE Kerala Section, is committed to advancing signal processing knowledge and fostering collaboration among professionals, academics, and students. The chapter's initiatives—ranging from technical talks and workshops to hackathons and conferences—support education, innovation, and professional growth in areas such as audio processing, image and video analysis, machine learning, and biomedical signal processing. By promoting interaction between academia and industry, the chapter facilitates knowledge exchange and collaborative research. With a focus on emerging technologies and nurturing young talent, the SPS Kerala Chapter aligns with IEEE’s values of technical excellence and community building, enriching the regional tech community while contributing to the global IEEE mission.
               </p>
             </div>
           </div>
@@ -63,12 +64,7 @@ mentorship and guidance.
             <div className="about-text">
               <h2>About IEEE NITC SB </h2>
               <p>
-                NITC SB is a group of enthusiastic students passionate about
-                technology and innovation, dedicated to fostering technical
-                skills, knowledge sharing, and professional growth among its
-                members. Through a range of events, workshops, and projects,
-                NITC SB strives to build a vibrant community that promotes
-                collaboration and learning in the engineering field.
+              The IEEE Student Branch at NIT Calicut (NITC), established in 1985, has been pivotal in fostering technological innovation, leadership, and community engagement among students. Over the years, it has grown into a significant force in both the IEEE community and local society, organizing impactful events and initiatives that merge technology with societal needs. Notable activities include Slash Key 3.0, a state-wide technical event, and a symposium celebrating 75 years of the Circuits and Systems Society (CASS). The branch's humanitarian efforts have been exemplary, such as providing 300 emergency LED lamps during the Wayanad landslide relief and developing an off-grid solar-powered digital library for Anakkampoyil, enhancing educational access while promoting renewable energy. These initiatives reflect the branch’s commitment to innovation, interdisciplinary collaboration, and service to society.
               </p>
             </div>
           </div>
