@@ -118,8 +118,8 @@ export const Contact = (props) => {
               <p>
                 <span>
                   <i className="fa fa-phone"></i> Phone
-                </span>{" "}Gregory Kurien :
-                {props.data ? props.data.phone : "loading"}
+                </span>{" "}
+                Gregory Kurien :{props.data ? props.data.phone : "loading"}
                 <br />
                 Nandana Promoth : +91 94005 90135
               </p>
@@ -128,7 +128,8 @@ export const Contact = (props) => {
               <p>
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
-                </span>ieeespskerala@gmail.com
+                </span>
+                ieeespskerala@gmail.com
               </p>
             </div>
           </div>
@@ -164,10 +165,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>
-            &copy;Designed and Developed by Alan Antony IEEE SPS KC WebMaster
-            2024 and H4G Web Team
-          </p>
+          <p>&copy;Designed and Developed by H4G Web Team</p>
         </div>
       </div>
     </div>

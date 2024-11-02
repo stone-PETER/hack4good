@@ -250,7 +250,9 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.7);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -281,9 +283,28 @@ header .intro-text {
 .header-logo {
   width: 40vw;
 }
+.hero-vid {
+  position: absolute;
+  height: 122%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  /* z-index: 0; */
+}
+#myVideo {
+  position: relative;
+  top: 80px;
+  height: 150%;
+  z-index: -0.5;
+}
 @media screen and (max-width: 768px) {
   .header-logo {
     width: 60vw;
+  }
+  .hero-vid {
+    display: none;
   }
 }
 /* Features Section */
@@ -468,10 +489,10 @@ header .intro-text {
   color: #fff;
 }
 
-#lakh{
+#lakh {
   font-size: 124px;
 }
-#pool{
+#pool {
   font-size: 60px;
 }
 #services p {
@@ -778,8 +799,8 @@ label {
     font-size: 48px;
     position: relative;
     top: -15px;
-}
-#pool {
-  font-size: 52px;
-}
+  }
+  #pool {
+    font-size: 52px;
+  }
 }

@@ -4,6 +4,11 @@ export const Header = (props) => {
   return (
     <header id="header">
       <div className="intro">
+        <div className="hero-vid">
+          <video autoPlay muted loop id="myVideo">
+            <source src="/Hero.mp4" type="video/mp4" />
+          </video>
+        </div>
         <div className="overlay">
           <div className="container">
             <div className="row">
