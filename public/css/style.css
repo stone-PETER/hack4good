@@ -101,6 +101,15 @@ hr {
     display: none;
   }
 }
+@media screen and (max-width: 900px) {
+  .nav-logo {
+    width: 50px;
+    margin: 0px 3px;
+  }
+  #ieee {
+    width: 60px;
+  }
+}
 #menu.navbar-default {
   background: #0f001b;
   border-color: rgba(231, 231, 231, 0);

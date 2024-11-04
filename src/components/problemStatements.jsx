@@ -29,7 +29,7 @@ const ProblemStatements = () => {
         <button
           onClick={handleViewProblemStatements}
           style={{
-            backgroundColor: "#000",
+            backgroundColor: "#29004e",
             color: "white",
             fontWeight: "bold",
             padding: "0.5rem 1rem",
@@ -37,7 +37,7 @@ const ProblemStatements = () => {
             cursor: "pointer",
           }}
           onMouseOver={(e) => (e.target.style.backgroundColor = "#2563eb")}
-          onMouseOut={(e) => (e.target.style.backgroundColor = "#000")}
+          onMouseOut={(e) => (e.target.style.backgroundColor = "#29004e")}
         >
           View Problem Statements
         </button>

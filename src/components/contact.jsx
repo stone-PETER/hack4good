@@ -107,12 +107,17 @@ export const Contact = (props) => {
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Final Hack Venue
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
+              <a
+                href="https://www.google.com/maps/place/NIT+Calicut/@11.3216018,75.9337379,15z/data=!4m6!3m5!1s0x3ba642fd50000001:0xbe8a77db953bda6c!8m2!3d11.3216018!4d75.9337379!16zL20vMDM5ZHh6?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+              >
+                <p>
+                  <span>
+                    <i className="fa fa-map-marker"></i> Final Hack Venue
+                  </span>
+                  {props.data ? props.data.address : "loading"}
+                </p>
+              </a>
             </div>
             <div className="contact-item">
               <p>

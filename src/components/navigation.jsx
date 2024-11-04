@@ -41,15 +41,20 @@ export const Navigation = (props) => {
               alt="HTB"
             />
           </a>
-          <a className="page-scroll secondary" href="#about">
+          <a className="page-scroll" href="#about">
             <img
               className="nav-logo"
               src="img/logo/ieee foundation png.png"
               alt="HTB"
             />
           </a>
-          <a className="page-scroll secondary" href="#about">
-            <img className="nav-logo" src="img/logo/ieee png.png" alt="HTB" id="ieee" />
+          <a className="page-scroll " href="#about">
+            <img
+              className="nav-logo"
+              src="img/logo/ieee png.png"
+              alt="HTB"
+              id="ieee"
+            />
           </a>
         </div>
 
