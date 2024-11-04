@@ -35,9 +35,10 @@ export const Features = (props) => {
               <i class="bx bx-receipt"></i>
               <h4>Phase 1 : Ideation Hack</h4>
               <p>
-                Registration starts : 2/11/2024
+                Registration starts : 4/11/2024
                 <br />
-                -Ideation Hack,the first phase of Hack4Good is to register with your idea for devloping solution based on the given 20 problem statements that come under United Nations Sustainability development Goals.Your application must consist of :
+                -Ideation Hack,the first phase of Hack4Good is to register with your idea for devloping solution based on the given 20 problem statements that come under United Nations Sustainable Development Goals. <br /> Your application must consist of :
+                <br />
                 <br />
                 1. Title and Team Details
                 <br />
@@ -68,15 +69,20 @@ export const Features = (props) => {
               <p>
                 -Teams selected from phase 1 will be going to Hack Tank round.
                 <br />
+                <br />
                 -Panel of experts will cross the idea of teams while the teams try to convince why the idea suits
                  sustainability as well as how it solves the problem.
                  <br />
+                 <br />
                 -It would follow a corporate product presentation of why and how their product is to be designed.
+                <br />
                 <br />
                 -It would follow more of a debate format where the team would have to convince the panel about their
                  ideas.
                  <br />
+                 <br />
                 -Presentation, Flowcharts could be used during this phase review.
+                <br />
                 <br />
               </p>
               <p>Selected teams will be assigned with Mentors</p>
@@ -88,11 +94,13 @@ export const Features = (props) => {
                 Final selected teams will be invited to compete in an offline
                 venue
               </p>
+              <br />
               <p>
                 Mentoring sessions for the Final selected teams will be provided.
                 <br />
                 -Each team would be guided by a mentor for the final hack.
               </p>
+              <br />
               <p>
                 Final Hack will have 24 Hours of Offline Hackathon at NIT Calicut
                 <br />
