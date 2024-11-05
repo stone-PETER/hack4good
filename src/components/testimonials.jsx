@@ -26,12 +26,12 @@ export const Testimonials = (props) => {
                   const currentNumber = counter++;
                   return (
                     <div key={`${sdg}-${no}`} className="col-md-4">
-                      {/* <a
+                      <a
                             href="https://tinyurl.com/Hack4Good-Registration"
                             className="btn btn-custom btn-lg testimonial-btn page-scroll"
                           >
                             Register Now
-                          </a>{" "} */}
+                          </a>{" "}
                       <div className="testimonial">
                         <div className="testimonial-content">
                           <div className="testimonial-number">
