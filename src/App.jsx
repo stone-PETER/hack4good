@@ -50,7 +50,12 @@ const App = () => {
           />
           <Route
             path="/problem-statements"
-            element={<Testimonials data={landingPageData.Problems} />}
+            element={
+              <>
+                <Navigation />
+                <Testimonials data={landingPageData.Problems} />
+              </>
+            }
           />
         </Routes>
       </Router>

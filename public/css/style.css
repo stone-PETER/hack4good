@@ -85,20 +85,34 @@ hr {
   /* flex-shrink: 1; */
 }
 .nav-logo {
-  width: 80px;
-  margin: 0px 10px;
+  width: 67px;
+  margin: 0px 5px;
 }
 #ieee {
-  width: 100px;
+  width: 80px;
 }
 .navbar-nav {
   display: flex;
   justify-content: center;
   flex-grow: 1;
 }
+.navbar-collapse.collapse {
+  transition: all 0.5s ease-in-out;
+}
 @media screen and (max-width: 1200px) {
   .secondary {
     display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .navbar-collapse.collapse {
+    width: fit-content;
+    background: #0f001b6a;
+  }
+  .nav {
+    display: flex;
+    background: #0f001b6a;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 900px) {
@@ -110,6 +124,7 @@ hr {
     width: 60px;
   }
 }
+
 #menu.navbar-default {
   background: #0f001b;
   border-color: rgba(231, 231, 231, 0);
