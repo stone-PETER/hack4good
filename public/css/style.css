@@ -884,6 +884,8 @@ label {
 .card h2
 {
   font-size: 7rem;
+  font-family: 'Fira Code', monospace;
+  font-style: normal;
 }
 .card:first-child
 {
@@ -916,7 +918,7 @@ label {
 @media (max-width:1560px) {
   #registration
   {
-    height: 140vh;
+    height: 150vh;
   } 
   .card h2
 {
@@ -935,7 +937,7 @@ label {
 {
   #registration
   {
-    height: 190vh;
+    height: 195vh;
   } 
 }
 @media (max-width:330px)
