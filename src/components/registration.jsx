@@ -12,24 +12,24 @@ export const Registration=(props)=>
         </div>
          <div className="cards">
             <div className="card">
-                <h3>IEEE SPS Membered Team</h3>
-                <p>Requires atleast one IEEE SPS Member in the Team</p>
-                <h2>Rs. 300</h2>
-                <a href=".">Register now</a>
+                <h3>IEEE  Membered Team</h3>
+                <h2>Rs. 400</h2>
+                <p>Requires atleast one IEEE Member in the Team</p>
+                <a href="https://www.yepdesk.com/hack4good" target="_blank">Register now</a>
             </div>
             <div className="card">
-                <h3>IEEE  Membered Team</h3>
-                <p>Requires atleast one IEEE Member in the Team</p>
-                <h2>Rs. 400</h2>
-                <a href=".">Register now</a>
+                <h3>IEEE SPS Membered Team</h3>
+                <h2>Rs. 300</h2>
+                <p>Requires atleast one IEEE SPS Member in the Team</p>
+                <a href="https://www.yepdesk.com/hack4good" target="_blank">Register now</a>
             </div>
             <div className="card">
                 <h3>Non-IEEE Membered Team</h3>
-                <p></p>
                 <h2>Rs. 500</h2>
-                <a href=".">Register now</a>
+                <p></p>
+                <a href="https://www.yepdesk.com/hack4good" target="_blank" >Register now</a>
             </div>
         </div>
-        </div>  
+    </div>  
     );
 };
