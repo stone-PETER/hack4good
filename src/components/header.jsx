@@ -23,7 +23,7 @@ export const Header = (props) => {
                 <p>In collaboration with The IEEE SB NITC</p>
                 <p>Final Hack: December 28th, 29th, NIT Calicut</p>
                 <a
-                  href="https://tinyurl.com/Hack4Good-Registration"
+                  href="#registration"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Register Now
