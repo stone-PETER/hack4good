@@ -61,6 +61,9 @@ export const Features = (props) => {
                 10.Pitch Summary
                 <br />
                 -To be submitted in the form of PDF.
+                <br />
+                <br />
+                Deadline for phase 1: 23/11/2024 
               </p>
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
