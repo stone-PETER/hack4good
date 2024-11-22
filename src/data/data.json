@@ -68,33 +68,13 @@
   "Services": [
     {
       "icon": "fa fa-trophy",
-      "name": "Winner",
-      "text": "1000"
+      "name": "1 Lakh",
+      "text": "Prize Pool"
     },
     {
       "icon": "fa fa-trophy",
-      "name": "First Runner Up",
-      "text": "1000"
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Second Runner Up",
-      "text": "1000"
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "1000"
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "1000"
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "1000"
+      "name": "Internship Opportunities",
+      "text": "for eligible talents"
     }
   ],
   "Testimonials": [

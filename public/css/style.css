@@ -396,27 +396,6 @@ header .intro-text {
 #features .small-screen {
   display: none;
 }
-/*Prize section*/
-#prize-pool {
-  padding: 50px 0;
-  background-color: #f9f9f9;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.prize h3 {
-  font-size: 1.5em;
-}
 /* About Section */
 #about {
   padding: 100px 0;
@@ -499,27 +478,73 @@ header .intro-text {
   /* width: 100%; */
 }
 #services .prize {
-  background: linear-gradient(to right, #29004e 0%, #845cfb 100%);
+  /* background: linear-gradient(
+    to bottom,
+    #9a96b1 0%,
+    #9a96b1 20%,
+    #e1cbd8 20%,
+    #e1cbd8 100%
+  ); */
+  background-image: url("../img/prize.png");
+  background-size: 100%;
+  /* background: #f8d5d3d5; */
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
   max-width: 650px;
-  height: 399px;
-  border-radius: 8px;
-  padding: 20px;
+  height: 350px;
+  /* border-radius: 8px; */
+  /* padding: 20px; */
   margin: 10px;
   flex: 1 1 30%;
   text-align: center;
 }
-#services h3 {
-  font-weight: 500;
-  padding: 5px 0;
-  color: #fff;
-}
 
-#lakh {
-  font-size: 124px;
+#services .prize .prize-head {
+  background-color: #525d7900;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* top: -20px; */
+  height: 15%;
 }
-#pool {
-  font-size: 60px;
+#services .prize .prize-head .prize-title h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "ArcadeClassic", sans-serif;
+}
+#services .prize .prize-title {
+  background-color: #0c2745;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 50%;
+  height: 90%;
+}
+.black {
+  color: #1e1a1b;
+}
+.lakh {
+  font-size: 80px;
+  padding: 0px 50px;
+  font-family: "ArcadeClassic", sans-serif;
+}
+.pool {
+  font-size: 50px;
+  padding: 0px 50px;
+  font-family: "ArcadeClassic", sans-serif;
+}
+.internship {
+  font-size: 55px;
+  padding: 0px 50px;
+  font-weight: 600;
+  font-family: "ArcadeClassic", sans-serif;
+}
+.eligibility {
+  font-size: 40px;
+  padding: 0px 60px;
+  font-family: "ArcadeClassic", sans-serif;
 }
 #services p {
   color: rgba(255, 255, 255, 0.75);
@@ -691,7 +716,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 ;
+  padding: 100px 0;
   background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
   color: rgba(255, 255, 255, 0.75);
 }
@@ -835,13 +860,21 @@ label {
   #about img {
     margin: 50px 0;
   }
-  #lakh {
+  .lakh {
     font-size: 48px;
     position: relative;
     top: -15px;
   }
-  #pool {
+  .pool {
     font-size: 52px;
+  }
+  .internship {
+    font-size: 30px;
+    position: relative;
+    top: -15px;
+  }
+  .eligibility {
+    font-size: 30px;
   }
 }
 /*Registration section*/
@@ -849,38 +882,38 @@ label {
   position: relative;
   padding: 100px 0;
   background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
-  min-height: 100vh; 
-  overflow-x: hidden; 
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .cards {
   display: flex;
-  position: relative; 
-  margin: 0 auto; 
-  width: 90%; 
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px; 
+  gap: 20px;
 }
 
 .cards .card {
   padding: 20px;
   background-color: #33035c;
   border-radius: 2rem;
-  width: 100%; 
-  max-width: 50rem; 
-  height: 400px; 
+  width: 100%;
+  max-width: 50rem;
+  height: 400px;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .card h2 {
-  font-size: 7rem; 
-  font-family: 'Fira Code', monospace;
+  font-size: 7rem;
+  font-family: "Fira Code", monospace;
   word-wrap: break-word;
 }
 
@@ -927,7 +960,7 @@ label {
   }
 
   .card {
-    width: 90%; 
+    width: 90%;
     max-width: 350px;
   }
 
@@ -937,8 +970,7 @@ label {
 }
 
 @media (max-width: 480px) {
-  .cards .card
-  {
+  .cards .card {
     height: 350px;
   }
   .card h2 {
@@ -955,8 +987,7 @@ label {
   .card h2 {
     font-size: 4rem;
   }
-  .cards .card
-  {
+  .cards .card {
     height: 370px;
   }
   .card {
