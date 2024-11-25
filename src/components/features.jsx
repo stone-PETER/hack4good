@@ -63,7 +63,7 @@ export const Features = (props) => {
                 -To be submitted in the form of PDF.
                 <br />
                 <br />
-                Deadline for phase 1: 23/11/2024 
+                Deadline for phase 1: 1/12/2024 
               </p>
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">

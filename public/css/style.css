@@ -329,9 +329,6 @@ header .intro-text {
   .header-logo {
     width: 60vw;
   }
-  .hero-vid {
-    display: none;
-  }
 }
 /* Features Section */
 #features {
