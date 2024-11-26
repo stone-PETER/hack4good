@@ -36,25 +36,29 @@ export const Services = (props) => {
         <div className="row">
           <div className="col-md-6 prizes">
             <div className="prize">
-              <div className="prize-head">
-                <div className="prize-title">
-                  <h3>HACK4GOOD</h3>
+              <div className="prize-pink">
+                <div className="prize-head">
+                  <div className="prize-title">
+                    <h3>HACK4GOOD</h3>
+                  </div>
                 </div>
+                <h3 className="lakh black">1 Lakh</h3>
+                <h4 className="pool black">Prize Pool</h4>
               </div>
-              <h3 className="lakh black">1 Lakh</h3>
-              <h4 className="pool black">Prize Pool</h4>
             </div>
             <div className="service-desc"></div>
           </div>
           <div className="col-md-6 prizes">
             <div className="prize">
-              <div className="prize-head">
-                <div className="prize-title">
-                  <h3>HACK4GOOD</h3>
+              <div className="prize-pink">
+                <div className="prize-head">
+                  <div className="prize-title">
+                    <h3>HACK4GOOD</h3>
+                  </div>
                 </div>
+                <h3 className="internship black">Internship Pool</h3>
+                <h4 className="eligibility black">for eligible talents</h4>
               </div>
-              <h3 className="internship black">Internship Pool</h3>
-              <h4 className="eligibility black">for eligible talents</h4>
             </div>
             <div className="service-desc"></div>
           </div>
