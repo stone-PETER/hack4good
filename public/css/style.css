@@ -475,30 +475,28 @@ header .intro-text {
   /* width: 100%; */
 }
 #services .prize {
-  /* background: linear-gradient(
-    to bottom,
-    #9a96b1 0%,
-    #9a96b1 20%,
-    #e1cbd8 20%,
-    #e1cbd8 100%
-  ); */
   background-image: url("../img/prize.png");
   background-size: 100%;
-  /* background: #f8d5d3d5; */
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
   max-width: 650px;
   height: 350px;
-  /* border-radius: 8px; */
-  /* padding: 20px; */
+  border-radius: 8px;
+  padding: 0px 50px;
   margin: 10px;
   flex: 1 1 30%;
   text-align: center;
+}
+#services .prize .prize-pink {
+  background: linear-gradient(to right, #83ffb4 0%, #87ff7e 100%);
+  padding: 0px 10px;
+  height: 100%;
 }
 
 #services .prize .prize-head {
   background-color: #525d7900;
   /* position: relative; */
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   /* top: -20px; */
@@ -524,23 +522,19 @@ header .intro-text {
 }
 .lakh {
   font-size: 80px;
-  padding: 0px 50px;
   font-family: "ArcadeClassic", sans-serif;
 }
 .pool {
   font-size: 50px;
-  padding: 0px 50px;
   font-family: "ArcadeClassic", sans-serif;
 }
 .internship {
   font-size: 55px;
-  padding: 0px 50px;
   font-weight: 600;
   font-family: "ArcadeClassic", sans-serif;
 }
 .eligibility {
   font-size: 40px;
-  padding: 0px 60px;
   font-family: "ArcadeClassic", sans-serif;
 }
 #services p {
