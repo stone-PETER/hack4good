@@ -1021,6 +1021,7 @@ label {
 .internshipPool h2
 {
   position: relative;
+  font-size: 40px;
   margin: 20px;
   color: rgb(219, 175, 3);
 }
@@ -1056,7 +1057,7 @@ label {
   font-size: 1.5rem;
  }
 }
-@media (max-width: 4340px){
+@media (max-width: 434px){
 
   .internshipPool h2{
     font-size: 2.2rem;
