@@ -939,8 +939,6 @@ label {
   background: #4d4af2;
   transition: 0.5s;
 }
-
-/* Media Queries */
 @media (max-width: 1560px) {
   .card h2 {
     font-size: 5rem;
@@ -990,4 +988,94 @@ label {
   .card {
     width: 100%;
   }
+}
+/*Sponsors*/
+#sponsors
+{
+  position: relative;
+  padding: 100px 0;
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.sponsors img
+{
+  width: 500px;
+}
+.internshipPool
+{
+  display: flex;
+  width: 90%;
+  padding: 50px;
+  border-radius: 2rem;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0f001b40;
+}
+.internshipPool .partner
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.internshipPool h2
+{
+  position: relative;
+  margin: 20px;
+  color: rgb(219, 175, 3);
+}
+.internshipPool h2:first-child::after
+{
+  content:' ';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  width: 50%;
+  height: 2px;
+  background-color: rgb(219, 175, 3);
+}
+.partner p
+{
+  font-size: 2rem;
+}
+@media (max-width: 834px) {
+  .internshipPool{
+    padding: 25px;
+  }
+  .internshipPool h2
+  {
+    font-size: 3rem;
+  }
+  .sponsors img
+  {
+    width: 350px;
+  }
+ .partner p
+ {
+  font-size: 1.5rem;
+ }
+}
+@media (max-width: 4340px){
+
+  .internshipPool h2{
+    font-size: 2.2rem;
+  }
+
+}
+@media (max-width: 360px)
+{
+  .internshipPool h2{
+    font-size: 2rem;
+  }
+  .partner p
+ {
+  font-size: 1.2rem;
+ }
 }
