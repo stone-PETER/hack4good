@@ -1093,8 +1093,13 @@ label {
   -webkit-overflow-scrolling: touch;
   scroll-snap-type: x mandatory;
   padding-bottom: 20px;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
 }
-
+.updates::-webkit-scrollbar {
+  width: 0; 
+  background: transparent; 
+}
 .updatess img {
   max-height: 350px;
   max-width: 350px;
@@ -1104,12 +1109,9 @@ label {
   border: 2px dotted white;  
 
 }
-
-  
-
   .updatess img {
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 600px;
+    max-width: 500px;
     scroll-snap-align: start;
     flex: 0 0 auto;
   }
