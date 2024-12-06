@@ -1110,8 +1110,25 @@ label {
 
 }
   .updatess img {
-    max-height: 600px;
-    max-width: 500px;
+    max-height: 500px;
+    max-width: 450px;
     scroll-snap-align: start;
     flex: 0 0 auto;
+  }
+  @media (max-width:880px){
+    .updatess img {
+      max-height: 400px;
+      max-width: 400px;
+      scroll-snap-align: start;
+      flex: 0 0 auto;
+    }
+  }
+  @media (max-width:420px){
+    .updatess img {
+      max-height: 300px;
+      max-width: 300px;
+      scroll-snap-align: start;
+      flex: 0 0 auto;
+    }
+  
   }
