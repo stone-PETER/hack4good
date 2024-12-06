@@ -12,6 +12,7 @@ import ProblemStatements from "./components/problemStatements";
 import {Registration} from "./components/registration";
 import { Sponsors } from "./components/sponsors";
 import { Contact } from "./components/contact";
+import { Posters } from "./components/posters";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -48,6 +49,7 @@ const App = () => {
                 {/* <Team data={landingPageData.Team} /> */}
                 <Registration data={landingPageData.Registration}/>
                 <Sponsors data={landingPageData.sponsors}/>
+                <Posters data={landingPageData.Posters} />
                 <Contact data={landingPageData.Contact} />
               </>
             }
