@@ -26,7 +26,7 @@ export const Header = (props) => {
                   href="#registration"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Register Now
+                  Registration Closed
                 </a>{" "}
               </div>
             </div>

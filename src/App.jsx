@@ -48,10 +48,10 @@ const App = () => {
                 {/* <Gallery data={landingPageData.Gallery} /> */}
                 {/* <Testimonials data={landingPageData.Testimonials} /> */}
                 {/* <Team data={landingPageData.Team} /> */}
-                <Phase1 data={landingPageData.Phase1} />
+                {/* <Phase1 data={landingPageData.Phase1} /> */}
 
                 {/*<Registration data={landingPageData.Registration}/>*/}
-                <Sponsors data={landingPageData.sponsors}/>
+                <Sponsors data={landingPageData.sponsors} />
                 <Posters data={landingPageData.Posters} />
                 <Contact data={landingPageData.Contact} />
               </>
