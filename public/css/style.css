@@ -547,6 +547,34 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+/*phase1*/
+#phase1 {
+  padding: 100px 0;
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+  color: #fff;
+}
+.eael-data-table {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-collapse: separate;
+  border: none;
+  max-width: 1420px;
+  margin: 0 auto;
+}
+.eael-data-table tbody tr td {
+  padding: 20px 15px 20px 15px;
+  font-family: "Inter", Sans-serif;
+  font-size: 18px;
+  line-height: 1.35em;
+  border: 1px solid #1e013655;
+}
+.eael-data-table tbody tr.heading-tage {
+  background: #1c0134 !important;
+  border-radius: 15px;
+  color: #fff !important;
+  border-bottom: 1px solid #fff0;
+}
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
