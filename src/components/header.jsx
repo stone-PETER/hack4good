@@ -22,10 +22,7 @@ export const Header = (props) => {
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <p>In collaboration with The IEEE SB NITC</p>
                 <p>Final Hack: December 28th, 29th, NIT Calicut</p>
-                <a
-                  href="#registration"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
+                <a href="/" className="btn btn-custom btn-lg page-scroll">
                   Registration Closed
                 </a>{" "}
               </div>
