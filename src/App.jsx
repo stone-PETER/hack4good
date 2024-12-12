@@ -10,8 +10,10 @@ import { Testimonials } from "./components/testimonials";
 // import { Team } from "./components/Team";
 import ProblemStatements from "./components/problemStatements";
 //import {Registration} from "./components/registration";
+import { Sponsors } from "./components/sponsors";
 import { Phase1 } from "./components/phase1";
 import { Contact } from "./components/contact";
+import { Posters } from "./components/posters";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -49,6 +51,8 @@ const App = () => {
                 <Phase1 data={landingPageData.Phase1} />
 
                 {/*<Registration data={landingPageData.Registration}/>*/}
+                <Sponsors data={landingPageData.sponsors}/>
+                <Posters data={landingPageData.Posters} />
                 <Contact data={landingPageData.Contact} />
               </>
             }
