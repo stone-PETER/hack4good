@@ -17,6 +17,7 @@ import { Posters } from "./components/posters";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import { Result } from "./components/results";
 // import PrizePool from "./components/prizePool";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -42,7 +43,6 @@ const App = () => {
                 <Header data={landingPageData.Header} />
                 <About data={landingPageData.About} />
                 <Features data={landingPageData.Features} />
-                <Phase1 data={landingPageData.Phase1} />
                 <ProblemStatements />
                 <Services data={landingPageData.Services} />
                 {/* <PrizePool data={landingPageData.PrizePool} /> */}
@@ -52,6 +52,7 @@ const App = () => {
 
                 {/*<Registration data={landingPageData.Registration}/>*/}
                 <Sponsors data={landingPageData.sponsors} />
+                <Result />
                 <Posters data={landingPageData.Posters} />
                 <Contact data={landingPageData.Contact} />
               </>
@@ -63,6 +64,15 @@ const App = () => {
               <>
                 <Navigation />
                 <Testimonials data={landingPageData.Problems} />
+              </>
+            }
+          />
+          <Route
+            path="/phase1"
+            element={
+              <>
+                <Navigation />
+                <Phase1 data={landingPageData.Phase1} />
               </>
             }
           />
