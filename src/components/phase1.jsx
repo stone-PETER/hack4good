@@ -12,7 +12,7 @@ export const Phase1 = (props) => {
         <tbody>
           <tr className="heading-tage">
             <td>SNO</td>
-            <td>NAME</td>
+            <td>TEAM NAME</td>
           </tr>
 
           {props.data

@@ -42,13 +42,13 @@ const App = () => {
                 <Header data={landingPageData.Header} />
                 <About data={landingPageData.About} />
                 <Features data={landingPageData.Features} />
+                <Phase1 data={landingPageData.Phase1} />
                 <ProblemStatements />
                 <Services data={landingPageData.Services} />
                 {/* <PrizePool data={landingPageData.PrizePool} /> */}
                 {/* <Gallery data={landingPageData.Gallery} /> */}
                 {/* <Testimonials data={landingPageData.Testimonials} /> */}
                 {/* <Team data={landingPageData.Team} /> */}
-                {/* <Phase1 data={landingPageData.Phase1} /> */}
 
                 {/*<Registration data={landingPageData.Registration}/>*/}
                 <Sponsors data={landingPageData.sponsors} />

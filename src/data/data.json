@@ -80,19 +80,267 @@
   "Phase1": [
     {
       "sno": "1",
-      "name": "Registration"
+      "name": "Maverick"
     },
     {
       "sno": "2",
-      "name": "Team Formation"
+      "name": "Spark Wit"
     },
     {
       "sno": "3",
-      "name": "Problem Statement"
+      "name": "Aquavision"
     },
     {
       "sno": "4",
-      "name": "Submission"
+      "name": "VIDA"
+    },
+    {
+      "sno": "5",
+      "name": "MSN"
+    },
+    {
+      "sno": "6",
+      "name": "The Code of Duty"
+    },
+    {
+      "sno": "7",
+      "name": "Aqua Guardians"
+    },
+    {
+      "sno": "8",
+      "name": "GEST KIDDING"
+    },
+    {
+      "sno": "9",
+      "name": "IEEE SB CEV"
+    },
+    {
+      "sno": "10",
+      "name": "Legends"
+    },
+    {
+      "sno": "11",
+      "name": "Access Denied"
+    },
+    {
+      "sno": "12",
+      "name": "Zoeo"
+    },
+    {
+      "sno": "13",
+      "name": "codechaos"
+    },
+    {
+      "sno": "14",
+      "name": "ARAGYA"
+    },
+    {
+      "sno": "15",
+      "name": "TEAM AtoZ"
+    },
+    {
+      "sno": "16",
+      "name": "AURA"
+    },
+    {
+      "sno": "17",
+      "name": "Simpsons"
+    },
+    {
+      "sno": "18",
+      "name": "Sooraj Sajeev"
+    },
+    {
+      "sno": "19",
+      "name": "Metro mind"
+    },
+    {
+      "sno": "20",
+      "name": "EVOT"
+    },
+    {
+      "sno": "21",
+      "name": "I"
+    },
+    {
+      "sno": "22",
+      "name": "Hope"
+    },
+    {
+      "sno": "23",
+      "name": "COET first years"
+    },
+    {
+      "sno": "24",
+      "name": "Hackenzies"
+    },
+    {
+      "sno": "25",
+      "name": "HHHD"
+    },
+    {
+      "sno": "26",
+      "name": "[object Object]"
+    },
+    {
+      "sno": "27",
+      "name": "INNOMINDS"
+    },
+    {
+      "sno": "28",
+      "name": "TEAM GHASA"
+    },
+    {
+      "sno": "29",
+      "name": "Agrineers"
+    },
+    {
+      "sno": "30",
+      "name": "Tech4Good"
+    },
+    {
+      "sno": "31",
+      "name": "Git Lads"
+    },
+    {
+      "sno": "32",
+      "name": "Techy Titans"
+    },
+    {
+      "sno": "33",
+      "name": "TECHONS"
+    },
+    {
+      "sno": "34",
+      "name": "VitaCare"
+    },
+    {
+      "sno": "35",
+      "name": "Team Titans"
+    },
+    {
+      "sno": "36",
+      "name": "CONSTANTINES"
+    },
+    {
+      "sno": "37",
+      "name": "TASK TITANS"
+    },
+    {
+      "sno": "38",
+      "name": "Yukti"
+    },
+    {
+      "sno": "39",
+      "name": "Byte sizE"
+    },
+    {
+      "sno": "40",
+      "name": "IRIS"
+    },
+    {
+      "sno": "41",
+      "name": "TEAM FTW"
+    },
+    {
+      "sno": "42",
+      "name": "zerobreyncells"
+    },
+    {
+      "sno": "43",
+      "name": "PIXEL PERFECT"
+    },
+    {
+      "sno": "44",
+      "name": "Pioneers"
+    },
+    {
+      "sno": "45",
+      "name": "Byte me"
+    },
+    {
+      "sno": "46",
+      "name": "Case Katalyst"
+    },
+    {
+      "sno": "47",
+      "name": "CDSV"
+    },
+    {
+      "sno": "48",
+      "name": "HACKOVERFLOW"
+    },
+    {
+      "sno": "49",
+      "name": "Breaking Minds"
+    },
+    {
+      "sno": "50",
+      "name": "Alright Then"
+    },
+    {
+      "sno": "51",
+      "name": "Smart Coders"
+    },
+    {
+      "sno": "52",
+      "name": "Aquifers"
+    },
+    {
+      "sno": "53",
+      "name": "Git-it-Done"
+    },
+    {
+      "sno": "54",
+      "name": "Omega"
+    },
+    {
+      "sno": "55",
+      "name": "TEAM HYBRID"
+    },
+    {
+      "sno": "56",
+      "name": "CODE BREAKERS"
+    },
+    {
+      "sno": "57",
+      "name": "GLITCH FIXERS"
+    },
+    {
+      "sno": "58",
+      "name": "The Debug Quartet"
+    },
+    {
+      "sno": "59",
+      "name": "Tech Titans"
+    },
+    {
+      "sno": "60",
+      "name": "Binary Boys"
+    },
+    {
+      "sno": "61",
+      "name": "Coding Ninjas"
+    },
+    {
+      "sno": "62",
+      "name": "Nandhana T S, Srikumari S"
+    },
+    {
+      "sno": "63",
+      "name": "2077"
+    },
+    {
+      "sno": "64",
+      "name": "Foie Gras"
+    },
+    {
+      "sno": "65",
+      "name": "Future Forward"
+    },
+    {
+      "sno": "66",
+      "name": "FarMelody"
     }
   ],
   "Testimonials": [
