@@ -604,5 +604,167 @@
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
+  ],
+  "Phase2": [
+    {
+      "sno": "1",
+      "name": "HACKOVERFLOW"
+    },
+    {
+      "sno": "2",
+      "name": "IEEE SB CEV"
+    },
+    {
+      "sno": "3",
+      "name": "ARAGYA"
+    },
+    {
+      "sno": "4",
+      "name": "The Code of Duty"
+    },
+    {
+      "sno": "5",
+      "name": "TEAM GHASA"
+    },
+    {
+      "sno": "6",
+      "name": "Aquifers"
+    },
+    {
+      "sno": "7",
+      "name": "Omega"
+    },
+    {
+      "sno": "8",
+      "name": "Git Lads"
+    },
+    {
+      "sno": "9",
+      "name": "Simpsons"
+    },
+    {
+      "sno": "10",
+      "name": "MSN"
+    },
+    {
+      "sno": "11",
+      "name": "Team FTW"
+    },
+    {
+      "sno": "12",
+      "name": "CONSTANTINES"
+    },
+    {
+      "sno": "13",
+      "name": "Yukti"
+    },
+    {
+      "sno": "14",
+      "name": "Metro mind"
+    },
+    {
+      "sno": "15",
+      "name": "Breaking Minds"
+    },
+    {
+      "sno": "16",
+      "name": "zerobreyncells"
+    },
+    {
+      "sno": "17",
+      "name": "INNOMINDS"
+    },
+    {
+      "sno": "18",
+      "name": "Tech4Good"
+    },
+    {
+      "sno": "19",
+      "name": "TEAM AtoZ"
+    },
+    {
+      "sno": "20",
+      "name": "Case Katalyst"
+    },
+    {
+      "sno": "21",
+      "name": "[object Object]"
+    },
+    {
+      "sno": "22",
+      "name": "Team Titans"
+    },
+    {
+      "sno": "23",
+      "name": "Zoeo"
+    },
+    {
+      "sno": "24",
+      "name": "GEST KIDDING"
+    },
+    {
+      "sno": "25",
+      "name": "EVOT"
+    },
+    {
+      "sno": "26",
+      "name": "TECHONS"
+    },
+    {
+      "sno": "27",
+      "name": "Access Denied"
+    },
+    {
+      "sno": "28",
+      "name": "Aqua Guardians"
+    },
+    {
+      "sno": "29",
+      "name": "AURA"
+    },
+    {
+      "sno": "30",
+      "name": "Legends"
+    },
+    {
+      "sno": "31",
+      "name": "IRIS"
+    },
+    {
+      "sno": "32",
+      "name": "Aquavision"
+    },
+    {
+      "sno": "33",
+      "name": "ATLAS"
+    },
+    {
+      "sno": "34",
+      "name": "Hackenzies"
+    },
+    {
+      "sno": "35",
+      "name": "PIXEL PERFECT"
+    },
+    {
+      "sno": "36",
+      "name": "Maverick"
+    },
+    {
+      "sno": "37",
+      "name": "Techy Titans"
+    },
+    {
+      "sno": "38",
+      "name": "Spark Wit"
+    },
+    {
+      "sno": "39",
+      "name": "Agrineers"
+    },
+    {
+      "sno": "40",
+      "name": "INNOMINDS"
+    }
   ]
 }

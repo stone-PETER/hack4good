@@ -9,7 +9,7 @@ def update_json_with_text(file_path_txt, file_path_json):
         data = json.load(file)
 
     # Update the Phase1 section
-    data['Phase1'] = [{'sno': str(i + 1), 'name': line} for i, line in enumerate(lines)]
+    data['Phase2'] = [{'sno': str(i + 1), 'name': line} for i, line in enumerate(lines)]
 
     # Write the updated JSON data back to the file
     with open(file_path_json, 'w') as file:

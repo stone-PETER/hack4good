@@ -11,13 +11,14 @@ import { Testimonials } from "./components/testimonials";
 import ProblemStatements from "./components/problemStatements";
 //import {Registration} from "./components/registration";
 import { Sponsors } from "./components/sponsors";
-import { Phase1 } from "./components/phase1";
 import { Contact } from "./components/contact";
 import { Posters } from "./components/posters";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { Result } from "./components/results";
+import { Phase2 } from "./components/phase2";
+import { Phase1 } from "./components/phase1";
 // import PrizePool from "./components/prizePool";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -72,6 +73,7 @@ const App = () => {
             element={
               <>
                 <Navigation />
+                <Phase2 data={landingPageData.Phase2} />
                 <Phase1 data={landingPageData.Phase1} />
               </>
             }

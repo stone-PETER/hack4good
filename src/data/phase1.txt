@@ -1,66 +1,40 @@
-Maverick
-Spark Wit
-Aquavision
-VIDA
-MSN
-The Code of Duty
-Aqua Guardians
-GEST KIDDING
-IEEE SB CEV
-Legends
-Access Denied
-Zoeo
-codechaos
-ARAGYA
-TEAM AtoZ
-AURA
-Simpsons
-Sooraj Sajeev
-Metro mind
-EVOT
-I
-Hope
-COET first years
-Hackenzies
-HHHD
-[object Object]
-INNOMINDS
-TEAM GHASA
-Agrineers
-Tech4Good
-Git Lads
-Techy Titans
-TECHONS
-VitaCare
-Team Titans
-CONSTANTINES
-TASK TITANS
-Yukti
-Byte sizE
-IRIS
-TEAM FTW
-zerobreyncells
-PIXEL PERFECT
-Pioneers
-Byte me
-Case Katalyst
-CDSV
 HACKOVERFLOW
-Breaking Minds
-Alright Then
-Smart Coders
+IEEE SB CEV
+ARAGYA
+The Code of Duty
+TEAM GHASA
 Aquifers
-Git-it-Done
 Omega
-TEAM HYBRID
-CODE BREAKERS
-GLITCH FIXERS
-The Debug Quartet
-Tech Titans
-Binary Boys
-Coding Ninjas
-Nandhana T S, Srikumari S
-2077
-Foie Gras
-Future Forward
-FarMelody
+Git Lads
+Simpsons
+MSN
+Team FTW
+CONSTANTINES
+Yukti
+Metro mind
+Breaking Minds
+zerobreyncells
+INNOMINDS
+Tech4Good
+TEAM AtoZ
+Case Katalyst
+[object Object]
+Team Titans
+Zoeo
+GEST KIDDING
+EVOT
+TECHONS
+Access Denied
+Aqua Guardians
+AURA
+Legends
+IRIS
+Aquavision
+ATLAS
+Hackenzies
+PIXEL PERFECT
+Maverick
+Techy Titans
+Spark Wit
+Agrineers
+INNOMINDS

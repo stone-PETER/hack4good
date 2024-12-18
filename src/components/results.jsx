@@ -30,7 +30,7 @@ export const Result = () => {
                 marginBottom: "1.5rem",
               }}
             >
-              Phase 1 Results announced!!
+              Phase 2 Results announced!!
             </h3>
             <button
               onClick={handleViewProblemStatements}
@@ -45,7 +45,7 @@ export const Result = () => {
               onMouseOver={(e) => (e.target.style.backgroundColor = "#2563eb")}
               onMouseOut={(e) => (e.target.style.backgroundColor = "#29004e")}
             >
-              View Phase1 Results
+              View Results
             </button>
           </div>
         </div>
