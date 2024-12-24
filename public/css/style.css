@@ -1027,21 +1027,24 @@ label {
   display: flex;
   width: 90%;
   padding: 50px;
-  border-radius: 2rem;
   margin: 0 auto;
   flex-direction: column;
+  gap: 30px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #0f001b40;
 }
 .internshipPool .partner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 2rem;
   width: 80%;
+  padding: 50px;
+  background-color: #0f001b40;
 }
+
 .internshipPool h2 {
   position: relative;
   font-size: 40px;
@@ -1068,7 +1071,7 @@ label {
   .internshipPool h2 {
     font-size: 3rem;
   }
-  .sponsors img {
+  .partner img {
     width: 350px;
   }
   .partner p {
@@ -1079,6 +1082,9 @@ label {
   .internshipPool h2 {
     font-size: 2.2rem;
   }
+  .partner img {
+    width: 250px;
+  }
 }
 @media (max-width: 360px) {
   .internshipPool h2 {
@@ -1086,6 +1092,9 @@ label {
   }
   .partner p {
     font-size: 1.2rem;
+  }
+  .partner img {
+    width: 200px;
   }
 }
 #posters {
